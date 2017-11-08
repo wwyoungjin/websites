@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    
+    <title>YJ Gallery</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+
+    <!-- Pure CSS minified -->
+    <link href="css/pure-min.css" rel="stylesheet">
+    <link href="css/marketing.css" rel="stylesheet">
+    <link href="css/grids-responsive-min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<!-- add custom stylesheet to modify original pure css -->
+  <!-- navigation Pure Component -->
+  <nav class="header">
+      <div class="custom-wrapper pure-g pure-menu-fixed nav-text-color" id="menu">
+        <div class="pure-u-1 pure-u-md-1-3">
+          <div class="pure-menu">
+            <a href="#" class="pure-menu-heading heading-text-color">gallery</a>
+            <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+          </div>
+        </div>
+        
+        <div class="pure-u-1 pure-u-md-2-3">
+          <div class="pure-menu-horizontal custom-menu-3 custom-can-transform">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item"><a href="#" class="pure-menu-link menu-text-color">Home</a></li>
+              <li class="pure-menu-item"><a href="#about" class="pure-menu-link menu-text-color">About</a></li>
+              <li class="pure-menu-item"><a href="#contact" class="pure-menu-link menu-text-color">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </nav>
+
+  <div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">A picture paints a thousand words</h1>
+        <p class="splash-subhead">
+            Welcome to YJ Gallery.
+        </p>
+        <p>
+            <a href="#" class="pure-button pure-button-primary">Get Started</a>
+        </p>
+    </div>
+</div>
+
+<!-- content-div -->
+<div class="content-wrapper">
+  <div class="content">
+    <h2 class="content-head is-center">Pictures that I took</h2>
+      <!-- body - Picture I took  -->
+      <div class="picture-content pure-g">
+        <div  class="1-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">911 South Memorial Pool</h3>
+            <img class="imgs" src="img/thumbnails/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" alt="911 South Memorial Pool">
+            <p>When I had a trip to New York, I visited the place. The water comes out from the top and sinks into the middle hole which made me feel kind of sad.</p>
+            <button class="button-success pure-button">Success Button</button>
+        </div>
+
+        <div  class="1-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">Empire State Building</h3>
+            <img class="imgs" src="img/thumbnails/thumbnail_2.jpg" onclick="openModal();currentSlide(2)" alt="Empire State Building">
+            <p>By the time when I was at chelsea market, I could see the empire state building. Even though the distance was far from where I was, It was quite visible.</p>
+            <button class="button-error pure-button">Error Button</button>
+        </div>
+
+        <div  class="1-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">United States Headquarters</h3>
+            <img class="imgs" src="img/thumbnails/thumbnail_3.jpg" onclick="openModal();currentSlide(3)" alt="United States Headquarters">
+            <p>The Rectangle shape of this building looks very stable and solid. Also, I feel that somehow it generates the feeling of peace and safe.</p>
+            <button class="button-warning pure-button">Warning Button</button>
+        </div>
+
+        <div  class="1-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">Times Square</h3>
+            <img class="imgs" src="img/thumbnails/thumbnail_4.jpg" onclick="openModal();currentSlide(4)" alt="Times Square">
+            <p>It was crowded even though it was no special day when I was here. Mostly, there were tourists. It was quite impressive that I was surrounded by advertisements.</p>
+            <button class="button-secondary pure-button">Secondary Button</button>
+        </div>
+          
+      </div>
+
+      <!-- The Multi Modal -->
+      <div id="myModal" class="modal">
+        
+        <div class="modal-content">
+        
+          <div class="mySlides">
+            <img src="img/1.jpg" alt="911 South Memorial Pool">
+            <figcaption>911 South Memorial Pool</figcaption>
+          </div>
+
+          <div class="mySlides">
+            <img src="img/2.jpg" alt="Empire State Building">
+            <figcaption>Empire State Building</figcaption>
+          </div>
+
+          <div class="mySlides">
+            <img src="img/3.jpg" alt="United States Headquarters">
+            <figcaption>United States Headquarters</figcaption>
+          </div>
+
+          <div class="mySlides">
+            <img src="img/4.jpg" alt="Times Square">
+            <figcaption>Times Square</figcaption>
+          </div>
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+        </div>
+      </div>
+  
+  </div>
+
+    <hr>
+      <footer>
+        <p>&copy; Youngjin Jo 2017</p>
+      </footer>
+</div>
+
+<!-- JQuery -->
+    <script language="JavaScript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+  
+</html>

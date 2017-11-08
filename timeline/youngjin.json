@@ -1,0 +1,79 @@
+
+{
+    "timeline":
+    {
+        "headline":"Youngjin's Travel",
+        "type":"default",
+		"text":"A Peaceful Journey",
+        "date": [			
+			{
+                "startDate":"2014,12,21",
+                "headline":"Gamcheon Culture Villege",
+                "text":"<p>Historically-rich, mountainside cultural quarter, <strong>one of Busan’s most intriguing sights.</strong></p>",
+                "asset":
+                {
+                    "media":"img/resized/1.jpg",
+                    "credit":"",
+                    "caption":"Gamcheon Culture Villege, Busan, South Korea"
+                }
+            },	   
+				{
+                "startDate":"2015,4,30",
+                "headline":"City of Geneva",
+                "text":"<p><strong>Geneva city view</strong> including <i>Jet d'Eau</i> which is a giant water fountain. Picture took from <i>Cathedrale de St-Pierre</i>.</p>",
+                "asset":
+                {
+                    "media":"img/resized/2.jpg",
+                    "credit":"",
+                    "caption":"Geneva, Switzerland"
+                }
+            },
+
+                {
+                "startDate":"2015,5,1",
+                "headline":"Matterhorn",
+                "text":"<p><strong>Symbol for Switzerland.</strong> The most photographed mountain in the world. a.k.a <i>Paramount Pictures Logo.</i></p>",
+                "asset":
+                {
+                    "media":"img/resized/3.jpg",
+                    "credit":"",
+                    "caption":"Matterhorn, Zermatt, Switzerland"
+                }
+            },
+                {
+                "startDate":"2016,3,25",
+                "headline":"W.T.Preston",
+                "text":"<p>It was a sternwheeler that operated as a snagboat. Now, it operates as a history museum. It is similar to <i>the Samson V</i>, a snagboat now preserved as a museum in New Westminster, British Columbia. <i>(W.T.Preston, Wiki)</i></p>",
+                "asset":
+                {
+                    "media":"img/resized/4.jpg",
+                    "credit":"",
+                    "caption":"Anacortes, WA, US"
+                }
+            },
+                {
+                "startDate":"2016,3,26",
+                "headline":"Anacortes Cinemas",
+                "text":"<p>Movie Theater in Anacortes, Washington</p>",
+                "asset":
+                {
+                    "media":"img/resized/5.jpg",
+                    "credit":"",
+                    "caption":"Anacortes, WA, US"
+                }
+            },
+                {
+                "startDate":"2016,12,19",
+                "headline":"A Giftshop at Harrison Hot Spring",
+                "text":"<p>Trying to pose like my new friend</p>",
+                "asset":
+                {
+                    "media":"img/resized/6.jpg",
+                    "credit":"",
+                    "caption":"Harrison Hot Springs, BC, Canada"
+                }
+            }
+			
+        ]
+    }
+}
